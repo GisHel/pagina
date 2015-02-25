@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+<!-- {% load django_markdown %} -->
+{% load static %}
+
+{% block blog_entries %}
+  <div class="post">
+     <img src="{% static object.photo.url %}" width="300">
+    <h2><a href="{% url "entry-detail" object.id %}">{{ object.title }}</a></h2>
+    <p class="meta">
+      {{ object.created }} |
+      Tagged under {{  object.tags.all|join:", " }}
+    </p>
+    {{ object.body|markdown }}
+          
+    </div>
+   
+{% endblock %}
