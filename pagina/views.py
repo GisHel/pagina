@@ -16,6 +16,11 @@ class BlogIndex(ListView):
     paginate_by = 9
 
 
+class BlogIndex(ListView):
+    queryset = models.Entry.objects.published()
+    template_name = "participa.html"
+    paginate_by = 9
+
 class BlogDetail(DetailView):
     model = models.Entry
     template_name = "post.html"
