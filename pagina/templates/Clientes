@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html lang="es" >
+<head>
+	<meta charset="utf-8"/>
+	<title> Terraing </title>
+	<link rel="stylesheet"  href="css/normalize.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/estilos.css">
+	<script type="text/javascript" src="js/prefixfree.js"></script>
+	<script type="text/javascript" src= "js/jquery.js"></script>
+	<script type="text/javascript" src="js/pixastic.custom.js"></script>
+	<script type="text/javascript" src= "js/script.js"></script>	
+    <script type="text/javascript" src="js/slides.js"></script>
+
+</head>
+<body>
+	<header>
+				<hgroup>
+				<h1>TERRAING</h1>
+				<h2> Donde estés, existe un futuro increible...</h2>
+				<hgroup/>
+	</header>			
+	<div class="container">
+           
+            
+     </div>	
+	<section>
+		<article id= "historia">
+
+			<p>NUESTROS CLIENTESp>
+
+			<p>¿Tiene un proyecto en mente?</p>
+
+			<p>
+			
+					
+
+		</article>
+		<figure id="curvas">
+					<img src="imagen/dron.jpg">
+					<figcaption>
+						<h2>Recuerde: !Seguramente lo que usted necesita, lo podemos producir¡</h2>
+					uuuu
+					
+	<nav>
+		<ul>
+				<li><a href="#" id="Regresar" >Regresar</a></li>
+				
+		</ul>		
+
+	</nav>
+</body>
+</html>
